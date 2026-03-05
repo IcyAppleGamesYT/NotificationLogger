@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Discord Colors -->
+    <color name="discord_bg_primary">#36393F</color>
+    <color name="discord_bg_secondary">#2F3136</color>
+    <color name="discord_surface">#40444B</color>
+    <color name="discord_surface_highlight">#4A4E57</color>
+    <color name="discord_blurple">#5865F2</color>
+    <color name="discord_blurple_dark">#4752C4</color>
+    <color name="discord_text_primary">#DCDDDE</color>
+    <color name="discord_text_secondary">#B9BBBE</color>
+    <color name="discord_text_muted">#72767D</color>
+    <color name="discord_green">#57F287</color>
+    <color name="discord_yellow">#FEE75C</color>
+    <color name="discord_red">#ED4245</color>
+    <color name="discord_fuchsia">#EB459E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Status bar -->
+    <color name="status_bar">#202225</color>
+</resources>

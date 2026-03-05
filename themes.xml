@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NotificationLogger" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/discord_blurple</item>
+        <item name="colorPrimaryVariant">@color/discord_blurple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/discord_blurple</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/discord_bg_primary</item>
+        <item name="android:windowBackground">@color/discord_bg_primary</item>
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:navigationBarColor">@color/discord_bg_secondary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColor">@color/discord_text_primary</item>
+        <item name="bottomNavigationStyle">@style/DiscordBottomNav</item>
+    </style>
+
+    <style name="DiscordBottomNav" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/discord_bg_secondary</item>
+        <item name="itemIconTint">@color/bottom_nav_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_selector</item>
+        <item name="itemBackground">@drawable/bottom_nav_item_bg</item>
+        <item name="elevation">0dp</item>
+    </style>
+</resources>
